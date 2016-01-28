@@ -1,3 +1,5 @@
+package hailstone;
+
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,11 +1,12 @@
+package doggy;
+
 public class Doggy {
 	
 	String doggyMethod(int n) {
 		if (n <= 0) {
 			return "";
 		}
-		String result = doggyMethod(n-3) + n + doggyMethod(n-2);
-		return result;
+		return doggyMethod(n-3) + n + doggyMethod(n-2);
 	}
 	
 	int mcCarthy91(int n) {

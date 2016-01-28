@@ -1,3 +1,5 @@
+package BinarySearch;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -5,7 +7,7 @@ public class BinarySearch {
 	private List<Integer> list;
 	
 	public BinarySearch() {
-		list = new ArrayList<Integer>();
+		list = new ArrayList<>();
 	}
 	
 	public boolean binSearch(int n, List list) {
